@@ -1,10 +1,10 @@
 {
     "author": "SamBrishes, pytesNET",
-    "email": "sam@pytes.net",
-    "website": "https://www.pytes.net",
+    "email": "",
+    "website": "",
     "version": "0.1.2",
     "releaseDate": "2019-05-06",
     "license": "MIT",
     "compatible": "3.5.0",
-    "notes": ""
+    "notes": "Added to the public Bludit repository 2022-03-15"
 }
