@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*
+ |  Snicker     The first native FlatFile Comment Plugin 4 Bludit
+ |  @file       ./admin/css/admin.snicker.css
+ |  @author     SamBrishes <sam@pytes.net>
+ |  @version    0.1.2 [0.1.0] - Alpha
+ |
+ |  @website    https://github.com/pytesNET/snicker
+ |  @license    X11 / MIT License
+ |  @copyright  Copyright © 2019 SamBrishes, pytesNET <info@pytes.net>
+ */
+
+/* @start GENERAL */
+.shadow-sm-both{
+    box-shadow: 0 0 0.25rem rgba(0,0,0,.075) !important;
+}
+.table-hover-light tr:hover{
+    background-color: #f0f3f6;
+}
+/* @end GENERAL */
+
+/* @start Admin Navigation */
+.nav.nav-pills .nav-link{
+    color: #343a40;
+    font-weight: 400;
+    font-weight: 600;
+    background-color: #e9ecef;
+    transition: color 142ms linear, background 142ms linear;
+}
+.nav.nav-pills .nav-link:hover{
+    background-color: #d9dcdf;
+}
+.nav.nav-pills .nav-link.active{
+    color: #ffffff;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+    background-color: #343a40;
+}
+.nav.nav-pills .nav-link .badge{
+    margin-top: 3px;
+    text-shadow: none;
+    vertical-align: top;
+}
+.nav.nav-pills .nav-link.active .badge{
+    text-shadow: none;
+    background-color: #fff;
+}
+
+.nav.nav-pills .nav-link.nav-pending{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.nav.nav-pills .nav-link.nav-pending.active{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #007bff;
+}
+.nav.nav-pills .nav-link.nav-pending.active .badge{
+    color: #007bff;
+}
+.nav.nav-pills .nav-link.nav-approved{
+    border-radius: 0 !important;
+}
+.nav.nav-pills .nav-link.nav-approved.active{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #28A745;
+}
+.nav.nav-pills .nav-link.nav-rejected{
+    border-radius: 0 !important;
+}
+.nav.nav-pills .nav-link.nav-rejected.active{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #FFC107;
+}
+.nav.nav-pills .nav-link.nav-spam{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.nav.nav-pills .nav-link.nav-spam.active{
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #DC3545;
+}
+.nav.nav-pills .nav-link.nav-spam.active .badge{
+    color: #DC3545;
+}
+.nav.nav-pills .nav-link.nav-config{
+    font-weight: 400;
+}
+.nav.nav-pills .nav-link.nav-config .oi{
+    margin-right: 3px;
+    line-height: 1.5;
+    vertical-align: top;
+}
+/* @end Admin Navigation */
+
+/* @start Admin Pagination */
+.btn-group.btn-group-pagination .btn{
+    width: 34px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.btn-group.btn-group-pagination .btn.disabled{
+    cursor: not-allowed;
+}
+/* @end Admin Pagination */
